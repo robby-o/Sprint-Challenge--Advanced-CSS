@@ -292,9 +292,16 @@ footer {
   font-size: 2rem;
   border-radius: 6px;
 }
+.home .walk .walk-text .btn a {
+  color: #F6F7F8;
+  text-decoration: none;
+}
 .home .walk .walk-text .btn:hover {
   color: #22283A;
   background-color: #F6F7F8;
+}
+.home .walk .walk-text .btn:hover a {
+  color: #22283A;
 }
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
@@ -315,4 +322,50 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+h3 {
+  margin: 2%;
+}
+div {
+  margin: 2%;
+}
+div label {
+  font-size: 1.5rem;
+}
+div input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 3% 0;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+div input[type=submit] {
+  color: #F6F7F8;
+  background-color: #22283A;
+  font-weight: bold;
+  text-align: center;
+  padding: 3%;
+  width: 30%;
+  height: 12%;
+  font-size: 2rem;
+  border-radius: 6px;
+}
+div input[type=submit] a {
+  color: #F6F7F8;
+  text-decoration: none;
+}
+div input[type=submit]:hover {
+  color: #22283A;
+  background-color: #F6F7F8;
+}
+div input[type=submit]:hover a {
+  color: #22283A;
+}
+@media (max-width: 500px) {
+  div input[type=submit] {
+    width: 100%;
+  }
 }

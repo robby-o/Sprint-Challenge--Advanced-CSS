@@ -22,8 +22,16 @@
     height: 12%;
     font-size: 2rem;
     border-radius: 6px;
+    a {
+        color: @fColor;
+        text-decoration: none;
+    }
+    
     &:hover {
         color: @bgColor;
+        a {
+            color: @bgColor;
+        }
         background-color: @fColor;
     }
     @media @phone {

@@ -36,11 +36,19 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. Describe what it means to be mobile first vs desktop first.
 
+    Mobile first design means designing the UI of a website to look good for mobile first and desktop later.  For mobile first, media queries that will affect the desktop would usually be (min-width), whereas if you were designing desktop first you would typically use (max-width) media queries.
+
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+
+    This standardizes the font-size, allowing the end-user to use their own settings for font-size and making it very easy to for the developer to do font-size math with rem because 1rem would = 10px. 
 
 4. How would you describe preprocessing to someone new to CSS?
 
+    Preprocessing is a sort of "add-on" to Vanilla CSS that incorporates a bunch of new powerful tools on top of CSS.  It upgrades Vanilla CSS into having more capabilities like one would expect with a general programming language such as variables and functions (and much more) so that we as developers do not have to rewrite as much code.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+    I love that preprocessing allows such powerful capabilities like one would expect from a programming language.  So my favorite part is the mixins.  I haven't had too much trouble with it that it can be confusing in its own way having to put many small media query blocks of code everywhere that is needed.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

@@ -1,1 +1,27 @@
 // Navigation code here
+
+nav {
+    .flexColumn();
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(240,255,255, .5);
+    h1 {
+        font-size: 4rem;
+        margin: 1%;
+    }
+    .nav-links {
+        width: 30%;
+        .flexRow(space-between);
+        margin-top: 2%;
+        @media @phone {
+            width: 80%;
+        }
+        a {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: @ebony-clay;
+            text-decoration: none;
+        }
+    } 
+}

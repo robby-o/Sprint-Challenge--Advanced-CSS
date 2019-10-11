@@ -292,6 +292,11 @@ footer {
   font-size: 2rem;
   border-radius: 6px;
 }
+@media (max-width: 500px) {
+  .home .walk .walk-text .btn {
+    width: 90%;
+  }
+}
 .home .walk .walk-text .btn a {
   color: #F6F7F8;
   text-decoration: none;
@@ -302,11 +307,6 @@ footer {
 }
 .home .walk .walk-text .btn:hover a {
   color: #22283A;
-}
-@media (max-width: 500px) {
-  .home .walk .walk-text .btn {
-    width: 100%;
-  }
 }
 .home .walk .walk-img {
   width: 46%;
@@ -353,6 +353,11 @@ div input[type=submit] {
   font-size: 2rem;
   border-radius: 6px;
 }
+@media (max-width: 500px) {
+  div input[type=submit] {
+    width: 90%;
+  }
+}
 div input[type=submit] a {
   color: #F6F7F8;
   text-decoration: none;
@@ -363,9 +368,4 @@ div input[type=submit]:hover {
 }
 div input[type=submit]:hover a {
   color: #22283A;
-}
-@media (max-width: 500px) {
-  div input[type=submit] {
-    width: 100%;
-  }
 }

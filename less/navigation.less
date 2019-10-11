@@ -3,6 +3,7 @@
 nav {
     .flexColumn();
     margin: 2%;
+    
     h1 {
         font-size: 4rem;
         margin: 1%;
@@ -11,8 +12,12 @@ nav {
         width: 30%;
         .flexRow(space-between);
         margin-top: 2%;
+        @media @phone {
+            width: 80%;
+        }
         a {
             font-size: 1.5rem;
+            font-weight: bold;
             color: @ebony-clay;
             text-decoration: none;
         }
